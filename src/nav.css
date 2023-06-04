@@ -1,0 +1,29 @@
+:root{
+    --gray: #495E57;
+    --yellow:#F4CE14;
+    --darkpink:#EE9972;
+    --lightpink:#FBDABB;
+    --white:#EDEFEE;
+    --black:#333333;
+}
+
+.menu{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    color: var(--black);
+    list-style: none;
+    font-weight: bolder;
+}
+a{
+   text-decoration: none;
+   color: var(--black);
+}
+a:hover{
+    color: var(--gray);
+    border: var(--darkpink);
+    border-radius: 2px;
+    border-width: 5px;
+}
