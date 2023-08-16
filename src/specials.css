@@ -1,0 +1,44 @@
+:root{
+    --gray: #495E57;
+    --yellow:#F4CE14;
+    --darkpink:#EE9972;
+    --lightpink:#FBDABB;
+    --white:#EDEFEE;
+    --black:#333333;
+}
+.special_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Div_heading{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 23rem;
+}
+.Button_online{
+    background-color: var(--yellow);
+    border-radius: 5px;
+    border: none;
+    float: right;
+    align-self: center;
+}
+.Menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+}
+.item{
+    border-radius: 1rem;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.item img{
+    width: 18rem;
+}

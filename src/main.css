@@ -1,0 +1,33 @@
+:root{
+    --gray: #495E57;
+    --yellow:#F4CE14;
+    --darkpink:#EE9972;
+    --lightpink:#FBDABB;
+    --white:#EDEFEE;
+    --black:#333333;
+}
+main{
+    background-color: var(--gray);
+   }
+.Hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20pt;
+}
+.Hero_Text_Title{
+    font-family: 'Markazi Text', serif;
+    font-size: medium 64pt;
+    color: var(--yellow);
+    line-height: 0%;
+}
+.Hero_Text_P{
+    max-width: 48ch;
+    line-height: 1.5;
+    font-size: 16pt;
+    color: var(--white);
+}
+.Hero_img img{
+    border-radius: 8px;
+}
