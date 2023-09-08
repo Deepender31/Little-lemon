@@ -2,7 +2,7 @@ import './specials.css';
 import img from "./icons_assets/bruchetta.svg";
 import GreenSalad from "./icons_assets/greek salad.jpg";
 import LemonDessert from "./icons_assets/lemon dessert.jpg";
-function special() {
+function Special() {
     return (
     <div className='special_main'>
         <div className='Div_heading'>
@@ -46,4 +46,4 @@ function special() {
          );
 }
 
-export default special;
+export default Special;

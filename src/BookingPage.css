@@ -1,0 +1,63 @@
+:root{
+    --gray: #495E57;
+    --yellow:#F4CE14;
+    --darkpink:#EE9972;
+    --lightpink:#FBDABB;
+    --white:#EDEFEE;
+    --black:#333333;
+}
+.BookingForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    gap: 20px;
+    font: 1rem sans-serif;
+}
+.BookingForm div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: var(--darkpink);   
+}
+.BookingForm div input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--lightpink);
+    font: 0.8rem sans-serif;
+    color: var(--yellow);
+}
+.BookingForm div input:focus{
+    outline: none;
+}
+.BookingForm div input::placeholder{
+    color: var(--lightpink);
+}
+.BookingForm div select{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--lightpink);
+    font: 0.8rem sans-serif;
+    color: var(--yellow);
+}
+.BookingForm div select:focus{
+    outline: none;
+}
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--gray);
+    font: 0.8rem sans-serif;
+    color: var(--yellow);
+    background-color: var(--darkpink);
+    cursor: pointer;
+}
